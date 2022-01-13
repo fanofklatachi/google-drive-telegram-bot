@@ -1,10 +1,10 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
-    SUPPORT_CHAT_LINK = ""
+    BOT_TOKEN = "5099348076:AAHHF9axlaU1HjDBjJnGf0XXKGc8ha4x_OA"
+    APP_ID = "12329510"
+    API_HASH = "c05bb7eff963b8c621bf347027da44e0"
+    DATABASE_URL = "postgres://hgjwcquibayyuz:8e915ce2c89d67162e45ecffba26db10868105716e7d1762c2731b057eb87544@ec2-44-199-52-133.compute-1.amazonaws.com:5432/d2rdp3htmbsfha"
+    SUDO_USERS = "729662809 1997576450" # Sepearted by space.
+    SUPPORT_CHAT_LINK = "https://t.me/+fY8TGdSqb6g4YTNl"
     DOWNLOAD_DIRECTORY = "./downloads/"
     G_DRIVE_CLIENT_ID = ""
     G_DRIVE_CLIENT_SECRET = ""
@@ -12,7 +12,7 @@ class config:
 
 class BotCommands:
   Download = ['download', 'dl']
-  Authorize = ['auth', 'authorize']
+  Authorize = ['auth', 'authorize'] 
   SetFolder = ['setfolder', 'setfl']
   Revoke = ['revoke']
   Clone = ['copy', 'clone']
